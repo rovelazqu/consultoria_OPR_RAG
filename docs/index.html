@@ -1,0 +1,2104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Evaluación y ajuste del Producto 1 – Informe Producto 1 · RAC</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-98bc5e15ca00986a511e66da801f1277.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="floating">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul class="collapse">
+  <li><a href="#siglas-y-abreviaturas" id="toc-siglas-y-abreviaturas" class="nav-link active" data-scroll-target="#siglas-y-abreviaturas">Siglas y abreviaturas</a></li>
+  <li><a href="#resumen-y-recomendación" id="toc-resumen-y-recomendación" class="nav-link" data-scroll-target="#resumen-y-recomendación">1. Resumen y Recomendación</a></li>
+  <li><a href="#puntos-críticos-de-la-oferta" id="toc-puntos-críticos-de-la-oferta" class="nav-link" data-scroll-target="#puntos-críticos-de-la-oferta">2. Puntos críticos de la oferta</a>
+  <ul class="collapse">
+  <li><a href="#puntos-que-se-mantienen-9" id="toc-puntos-que-se-mantienen-9" class="nav-link" data-scroll-target="#puntos-que-se-mantienen-9">2.1 Puntos que se mantienen (9)</a></li>
+  <li><a href="#puntos-que-se-sugiere-cambiar-16" id="toc-puntos-que-se-sugiere-cambiar-16" class="nav-link" data-scroll-target="#puntos-que-se-sugiere-cambiar-16">2.2 Puntos que se sugiere cambiar (16)</a></li>
+  </ul></li>
+  <li><a href="#plazo-lo-ofertado-frente-a-lo-real" id="toc-plazo-lo-ofertado-frente-a-lo-real" class="nav-link" data-scroll-target="#plazo-lo-ofertado-frente-a-lo-real">3. Plazo: lo ofertado frente a lo real</a></li>
+  <li><a href="#es-realizable-con-270-casos-o-hay-que-bajar" id="toc-es-realizable-con-270-casos-o-hay-que-bajar" class="nav-link" data-scroll-target="#es-realizable-con-270-casos-o-hay-que-bajar">4. ¿Es realizable con 270 casos o hay que bajar?</a>
+  <ul class="collapse">
+  <li><a href="#si-hubiera-que-bajar-de-dónde-sacar-casos" id="toc-si-hubiera-que-bajar-de-dónde-sacar-casos" class="nav-link" data-scroll-target="#si-hubiera-que-bajar-de-dónde-sacar-casos">4.1 Si hubiera que bajar, ¿de dónde sacar casos?</a></li>
+  </ul></li>
+  <li><a href="#propuesta-ampliar-el-plazo-una-semana" id="toc-propuesta-ampliar-el-plazo-una-semana" class="nav-link" data-scroll-target="#propuesta-ampliar-el-plazo-una-semana">5. Propuesta: ampliar el plazo una semana</a></li>
+  <li><a href="#cronograma-recomendado-término-22122026" id="toc-cronograma-recomendado-término-22122026" class="nav-link" data-scroll-target="#cronograma-recomendado-término-22122026">6. Cronograma recomendado (término 22/12/2026)</a></li>
+  <li><a href="#riesgos-principales-y-decisiones-para-la-contraparte" id="toc-riesgos-principales-y-decisiones-para-la-contraparte" class="nav-link" data-scroll-target="#riesgos-principales-y-decisiones-para-la-contraparte">7. Riesgos principales y decisiones para la contraparte</a></li>
+  <li><a href="#literatura-metodológica-de-respaldo." id="toc-literatura-metodológica-de-respaldo." class="nav-link" data-scroll-target="#literatura-metodológica-de-respaldo.">8. Literatura metodológica de respaldo.</a>
+  <ul class="collapse">
+  <li><a href="#pretesteo-y-entrevistas-cognitivas" id="toc-pretesteo-y-entrevistas-cognitivas" class="nav-link" data-scroll-target="#pretesteo-y-entrevistas-cognitivas">Pretesteo y entrevistas cognitivas</a></li>
+  <li><a href="#usabilidad-y-tamaño-de-muestra-en-pruebas-con-usuarios" id="toc-usabilidad-y-tamaño-de-muestra-en-pruebas-con-usuarios" class="nav-link" data-scroll-target="#usabilidad-y-tamaño-de-muestra-en-pruebas-con-usuarios">Usabilidad y tamaño de muestra en pruebas con usuarios</a></li>
+  <li><a href="#muestreo-cualitativo-y-saturación" id="toc-muestreo-cualitativo-y-saturación" class="nav-link" data-scroll-target="#muestreo-cualitativo-y-saturación">Muestreo cualitativo y saturación</a></li>
+  <li><a href="#modos-de-recolección-respuesta-y-entrevistas-remotas" id="toc-modos-de-recolección-respuesta-y-entrevistas-remotas" class="nav-link" data-scroll-target="#modos-de-recolección-respuesta-y-entrevistas-remotas">Modos de recolección, respuesta y entrevistas remotas</a></li>
+  <li><a href="#gestión-del-campo-y-calidad-de-datos" id="toc-gestión-del-campo-y-calidad-de-datos" class="nav-link" data-scroll-target="#gestión-del-campo-y-calidad-de-datos">Gestión del campo y calidad de datos</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Evaluación y ajuste del Producto 1</h1>
+<p class="subtitle lead">Plan de trabajo y diseño operativo ajustado</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-right">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cover">
+  <img src="media/image1.png" alt="Logo" class="cover-logo">
+  <div>
+    <div class="kicker">INFORME TÉCNICO</div>
+    <div class="cover-desc">Licitación SC-08-090 · Servicio especializado de análisis metodológico y operativo del Registro de Agentes Culturales</div>
+    <div class="cover-author">Consultor: Dr. Roberto Velazquez-Quiroz</div>
+  </div>
+</div>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Dato</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Detalle</strong></span></td>
+</tr>
+<tr class="even">
+<td>Preparado para</td>
+<td>Observatorio de Políticas Culturales</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Fecha del informe</td>
+<td style="background: #F4EFE9">1 de noviembre de 2026</td>
+</tr>
+<tr class="even">
+<td>Inicio formal del servicio</td>
+<td>Lunes 26 de octubre de 2026</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Entrega del Producto 1</td>
+<td style="background: #F4EFE9">Viernes 6 de noviembre de 2026</td>
+</tr>
+<tr class="even">
+<td>Base del análisis</td>
+<td>Anexo 2 (Oferta técnica) y Bases Administrativas y Técnicas SC-08-090</td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="siglas-y-abreviaturas" class="level1">
+<h1>Siglas y abreviaturas</h1>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Sigla</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Significado</strong></span></td>
+</tr>
+<tr class="even">
+<td>RAC</td>
+<td>Registro Nacional de Agentes Culturales, Artísticos y Patrimoniales</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">MINCAP</td>
+<td style="background: #F4EFE9">Ministerio de las Culturas, las Artes y el Patrimonio</td>
+</tr>
+<tr class="even">
+<td>OPC</td>
+<td>Observatorio de Políticas Culturales (oferente)</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">BA / BT</td>
+<td style="background: #F4EFE9">Bases Administrativas / Bases Técnicas de la licitación (los números indican el numeral, por ejemplo BT 4.2)</td>
+</tr>
+<tr class="even">
+<td>MEC 2025</td>
+<td>Marco de Estadísticas Culturales Chile 2025</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">PN</td>
+<td style="background: #F4EFE9">Persona natural</td>
+</tr>
+<tr class="even">
+<td>PJ</td>
+<td>Personalidad jurídica (organización con PJ: tiene RUT propio)</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">UD</td>
+<td style="background: #F4EFE9">Unidad cultural dependiente de una entidad mayor</td>
+</tr>
+<tr class="even">
+<td>RUT</td>
+<td>Rol Único Tributario</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">CAWI</td>
+<td style="background: #F4EFE9">Encuesta autoaplicada por internet (del inglés Computer-Assisted Web Interviewing): la persona llena sola el formulario en la plataforma</td>
+</tr>
+<tr class="even">
+<td>CAPI</td>
+<td>Encuesta asistida con dispositivo (Computer-Assisted Personal Interviewing): un encuestador aplica el formulario cara a cara con tableta o celular</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">CATI</td>
+<td style="background: #F4EFE9">Encuesta telefónica asistida (Computer-Assisted Telephone Interviewing); solo como contingencia</td>
+</tr>
+<tr class="even">
+<td>PAPI</td>
+<td>Encuesta en papel (Paper-and-Pencil Interviewing); solo como contingencia</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">UX</td>
+<td style="background: #F4EFE9">Experiencia de usuario (User Experience)</td>
+</tr>
+<tr class="even">
+<td>F1 / F2 / F3</td>
+<td>Fase 1: pruebas cognitivas · Fase 2: pruebas de usabilidad · Fase 3: pruebas de captura en terreno</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">P1 a P4</td>
+<td style="background: #F4EFE9">Productos 1 a 4 de la consultoría (P1: plan de trabajo; P2: informe técnico; P3: guía de usuario; P4: manual de campo)</td>
+</tr>
+<tr class="even">
+<td>Go/no-go</td>
+<td>Decisión formal de continuar o detener el campo después del piloto</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">S1, S2…</td>
+<td style="background: #F4EFE9">Semana 1, semana 2… del servicio, contadas desde el 26/10/2026</td>
+</tr>
+<tr class="even">
+<td>Roles</td>
+<td>JP: jefatura de proyecto · CM: coordinación metodológica · UX: especialista en experiencia de usuario · CO: coordinación operativa · DQ: calidad de datos · ET: equipo territorial · CT: contraparte técnica de MINCAP</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="resumen-y-recomendación" class="level1">
+<h1>1. Resumen y Recomendación</h1>
+<p>El servicio partió el 26 de octubre y las Bases fijan el término de la ejecución el 15 de diciembre de 2026. <strong>Eso deja 36 días hábiles, unas 7 semanas, para un plan que la oferta diseñó en 12 semanas</strong>. Se identificaron <strong>25 puntos críticos de la oferta y se evaluó cada uno frente a ese tiempo.</strong></p>
+<p><span style="color:#3F7F86"><strong>Evaluación:</strong></span></p>
+<p><strong>Es posible hacer 270 casos en el plazo</strong>, pero con <strong>riesgo alto de atrición si el término es el 15/12</strong>. El punto <strong>débil</strong> son los <strong>120 casos CAWI</strong>: en <strong>una ventana de solo 8 días hábiles la tasa de respuesta por internet puede caer bajo lo estimado considerando el largo de los instrumentos y que un alto porcentaje de usuarios completa encuestas desde sus celulares</strong>. La alternativa más viable es retribuir a los participantes con un incentivo (por ejemplo, un libro o una gift card). <strong>Las demás fases (24 entrevistas cognitivas, 30 pruebas de usabilidad, 6 pruebas funcionales y 90 CAPI) caben con 2 moderadores por fase y unos 7 encuestadores.</strong></p>
+<p><span style="color:#3F7F86"><strong>Recomendación 1:</strong></span></p>
+<p><strong>Pedir una semana más</strong>: el término pasaría al martes 22/12/2026. Esa <strong>semana se puede destinar a lo más frágil: más días para los ajustes de plataforma (de 3 a 5), más días de campo (de 8 a 10) y más días de análisis antes del P2</strong>. Con esa semana el <strong>riesgo podría bajar a medio y no hace falta reducir casos</strong>.</p>
+<p><span style="color:#3F7F86"><strong>Recomendación 2:</strong></span></p>
+<p><strong>Mantener 270 casos y dejar 250 como piso de contingencia</strong>. El P1 debe incluir una regla preaprobada por la contraparte. <strong>Si al punto de control del campo el CAWI va bajo la meta, se cierra en 100 casos CAWI en vez de 120</strong>, y el total queda en 250, el mínimo de las Bases. <strong>No se recomienda recortar las fases cognitiva ni de usabilidad, porque ya están en el mínimo útil de acuerdo a la literatura especializada.</strong></p>
+</section>
+<section id="puntos-críticos-de-la-oferta" class="level1">
+<h1>2. Puntos críticos de la oferta</h1>
+<p>Son los 25 elementos de la oferta que determinan si el plan cabe en el tiempo disponible. Entre paréntesis se indica la página del Anexo 2 donde aparece cada uno.</p>
+<ol type="1">
+<li>Muestreo dirigido, de máxima variación y no probabilístico; 270 casos (p.&nbsp;6)</li>
+<li>Cuatro macrozonas y seis dominios culturales (p.&nbsp;6)</li>
+<li>Diversidad de formalización, trayectorias y autonomía digital (p.&nbsp;6)</li>
+<li>Modalidades remotas y presenciales (p.&nbsp;6)</li>
+<li>Entrevistas cognitivas y pruebas moderadas a distancia (p.&nbsp;6)</li>
+<li>Barreras de acceso que solo se observan en sesiones presenciales (p.&nbsp;6)</li>
+<li>Definición de las macrozonas Norte, Centro, Sur y Austral (p.&nbsp;7)</li>
+<li>Criterios de agrupación de las macrozonas (p.&nbsp;7)</li>
+<li>Las 4 macrozonas superan el mínimo, sin representatividad estadística (p.&nbsp;7)</li>
+<li>Lista de seis dominios culturales (p.&nbsp;7)</li>
+<li>Armonización con MEC 2025 «durante el ajuste metodológico» (p.&nbsp;7)</li>
+<li>270 casos válidos: 264 con agentes y 6 con perfiles operativos (p.&nbsp;7)</li>
+<li>Una persona puede participar en más de una fase, sin repetición inmediata (p.&nbsp;7)</li>
+<li>Tipos de agente (PN, organizaciones con PJ, organizaciones sin PJ y UD), usuarios inscritos y nuevos, y alfabetización digital (p.&nbsp;8)</li>
+<li>24 cognitivas, 30 de usabilidad, 210 de captura y 6 funcionales (p.&nbsp;8)</li>
+<li>Reclutamiento con registros y redes propias del OPC (p.&nbsp;8)</li>
+<li>Reserva del 20 % y tasas: 55–65 % en sesiones, 30–40 % en CAWI, 70–80 % en CAPI (p.&nbsp;8)</li>
+<li>24 entrevistas cognitivas en 2 rondas de 12 (p.&nbsp;9)</li>
+<li>Duración de 60 a 75 minutos por entrevista (p.&nbsp;9)</li>
+<li>30 pruebas moderadas y 6 pruebas funcionales (p.&nbsp;10)</li>
+<li>210 aplicaciones: 120 CAWI y 90 CAPI, con CAPI en las 4 macrozonas (p.&nbsp;11)</li>
+<li>Base maestra con validaciones y análisis cuantitativo y cualitativo (p.&nbsp;13)</li>
+<li>Contenido del Producto 1 (p.&nbsp;15)</li>
+<li>Hito 1 en la semana 2 con 30 % del pago (p.&nbsp;16)</li>
+<li>Duración de 12 semanas entre el 8/9 y el 15/12 (p.&nbsp;17)</li>
+</ol>
+<p><strong>Puntos críticos de los 25: </strong>9 se mantienen tal como están y 16 cambian: 13 se ajustan por tiempo y 3 se refuerzan. Ninguno cambia el diseño ofertado, que es lo que exige BA 21 para el Hito 1.</p>
+<p><strong>Condiciones para que el plan funcione: </strong>cuestionarios y accesos a la plataforma a más tardar el 3/11; revisiones de la contraparte en 3 días hábiles; aprobación anticipada de la pauta cognitiva (enviada el 4/11) para empezar entrevistas el 9/11; ajustes de plataforma de MINCAP en la semana del 25/11.</p>
+<section id="puntos-que-se-mantienen-9" class="level2">
+<h2 class="anchored" data-anchor-id="puntos-que-se-mantienen-9">2.1 Puntos que se mantienen (9)</h2>
+<p><em>No requieren cambios con el plazo actual.</em></p>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>N°</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Punto crítico</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Por qué se mantiene</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Observación para el P1</strong></span></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Muestreo dirigido, de máxima variación y no probabilístico; 270 casos (p. 6)</td>
+<td>Correcto para pruebas de validación (BT 5).</td>
+<td>Agregar al P1 la justificación de suficiencia: <strong>un problema de atrición afecta al 5-15 % de los usuarios de encuesta y aparece al menos una vez con 99 % de probabilidad en 90 CAPI o 120 CAWI.</strong></td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">5</td>
+<td style="background: #F4EFE9">Entrevistas cognitivas y pruebas moderadas a distancia (p. 6)</td>
+<td style="background: #F4EFE9">Clave para cubrir territorios en poco tiempo.</td>
+<td style="background: #F4EFE9">Definir en el <strong>P1 los requisitos técnicos mínimos (conexión, pantalla compartida) y un plan B presencial.</strong></td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Definición de las macrozonas Norte, Centro, Sur y Austral (p. 7)</td>
+<td>Clara y cubre las 16 regiones.</td>
+<td>Sin cambios.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">8</td>
+<td style="background: #F4EFE9">Criterios de agrupación de las macrozonas (p. 7)</td>
+<td style="background: #F4EFE9">Bien fundamentados.</td>
+<td style="background: #F4EFE9">Sin cambios.</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Las 4 macrozonas superan el mínimo, sin representatividad estadística (p. 7)</td>
+<td>Coherente con BT 5.</td>
+<td>Sin cambios.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">12</td>
+<td style="background: #F4EFE9">270 casos válidos: 264 con agentes y 6 con perfiles operativos (p. 7)</td>
+<td style="background: #F4EFE9">Realizable (ver sección 4).</td>
+<td style="background: #F4EFE9"><strong>Mantener como compromiso y agregar el piso de 250 como regla de contingencia.</strong></td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td>24 cognitivas, 30 de usabilidad, 210 de captura y 6 funcionales (p. 8)</td>
+<td>Las fases cualitativas están en el mínimo útil; la captura es el componente más sensible al tiempo.</td>
+<td>Mantener la distribución. El único ajuste posible por tiempo es CAWI (sección 4).</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">18</td>
+<td style="background: #F4EFE9">24 entrevistas cognitivas en 2 rondas de 12 (p. 9)</td>
+<td style="background: #F4EFE9">Viable con 2 moderadores (unas 6 entrevistas cada uno por ronda).</td>
+<td style="background: #F4EFE9">Ronda 1 del 9 al 13/11 y ronda 2 del 17 al 20/11, con un día de análisis entre ambas.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Hito 1 en la semana 2 con 30 % del pago (p. 16)</td>
+<td>La fecha se mantiene: 6/11.</td>
+<td>Pedir revisión en 3 días hábiles para que la aprobación llegue el 12 o 13/11.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="puntos-que-se-sugiere-cambiar-16" class="level2">
+<h2 class="anchored" data-anchor-id="puntos-que-se-sugiere-cambiar-16">2.2 Puntos que se sugiere cambiar (16)</h2>
+<p><em>Ajustar: se modifica para caber en el tiempo sin cambiar el diseño ofertado. Reforzar: necesita más detalle o más recursos en el P1. </em><em>El </em><em>número</em><em> </em><em>corresponde</em><em> a la lista de puntos críticos.</em></p>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>N°</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Punto crítico</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Problema con el tiempo disponible</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Tipo</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Cambio propuesto</strong></span></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Cuatro macrozonas y seis dominios culturales (p. 6)</td>
+<td>Supera el mínimo de las Bases (3 macrozonas y 3 dominios). La macrozona Austral es la que más tiempo exige por distancia y dispersión.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Mantener las 4 macrozonas. Asegurar que los 6 dominios estén presentes en el total de cada fase, sin exigir los 6 dentro de cada macrozona. En Austral, donde hay pocos casos (11 CAPI y 18 CAWI), basta con que haya al menos 3 dominios.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">3</td>
+<td style="background: #F4EFE9">Diversidad de formalización, trayectorias y autonomía digital (p. 6)</td>
+<td style="background: #F4EFE9">Útil, pero fijar un número mínimo de casos para cada nivel de formalización y cada trayectoria haría más lento el reclutamiento.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td style="background: #F4EFE9">Registrar el nivel de formalización y la trayectoria de cada participante en la ficha de elegibilidad, para describir la muestra, sin fijar un mínimo por categoría. Solo la autonomía digital tendrá un mínimo: al menos 30 % de participantes con autonomía digital baja o media en CAPI y en usabilidad.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Modalidades remotas y presenciales (p. 6)</td>
+<td>Las sesiones remotas ahorran traslados y tiempo.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Priorizar las sesiones remotas en F1 y F2 (alrededor del 70 %).</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">6</td>
+<td style="background: #F4EFE9">Barreras de acceso que solo se observan en sesiones presenciales (p. 6)</td>
+<td style="background: #F4EFE9">Si casi todas las sesiones de F1 y F2 son remotas, se pierden barreras como el manejo del dispositivo, la conectividad o la necesidad de ayuda.</td>
+<td style="background: #F2D5C7"><strong>Reforzar</strong></td>
+<td style="background: #F4EFE9">Hacer presenciales al menos 8 de las 30 pruebas de usabilidad, con personas de baja autonomía digital. Además, los 90 casos CAPI se aplican cara a cara, lo que también permite observar estas barreras en terreno.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Lista de seis dominios culturales (p. 7)</td>
+<td>Lista preliminar.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Fijar en el P1 la lista definitiva y su correspondencia con el MEC 2025 (tabla de equivalencias).</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">11</td>
+<td style="background: #F4EFE9">Armonización con MEC 2025 «durante el ajuste metodológico» (p. 7)</td>
+<td style="background: #F4EFE9">Con el plazo real no puede quedar para después.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td style="background: #F4EFE9">Cerrarla en la semana del 2/11, como parte del P1.</td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>Una persona puede participar en más de una fase, sin repetición inmediata (p. 7)</td>
+<td>Como F1 y F2 se harán al mismo tiempo, aumenta el riesgo de que una misma persona participe en ambas de forma seguida y responda con lo aprendido en la primera. A la vez, volver a invitar a personas ya contactadas ahorra tiempo de reclutamiento.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Permitir que hasta el 15 % de los casos CAWI de F3 provengan de personas que ya participaron en F1 o F2, con al menos 10 días de separación y marca en la base. Prohibir que una persona esté en F1 y F2 la misma semana.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">14</td>
+<td style="background: #F4EFE9">Tipos de agente (PN, organizaciones con PJ, organizaciones sin PJ y UD), usuarios inscritos y nuevos, y alfabetización digital (p. 8)</td>
+<td style="background: #F4EFE9">Las Bases (BT 5) exigen incluir los cuatro tipos de agente. Pedir además el equilibrio entre inscritos y nuevos dentro de cada macrozona y modalidad haría muy lento el reclutamiento.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td style="background: #F4EFE9">Incluir los 4 tipos de agente en cada fase. Mantener entre 40 y 60 % de usuarios ya inscritos en el RAC (y el resto nuevos) en el total de cada fase, sin exigir esa proporción dentro de cada macrozona o modalidad.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Reclutamiento con registros y redes propias del OPC (p. 8)</td>
+<td>Suficiente en volumen (~700 contactos), pero lento si se parte de cero.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Reclutar todas las fases desde el 2/11 y pedir a MINCAP listados de personas inscritas en el RAC como fuente complementaria, para agilizar.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">17</td>
+<td style="background: #F4EFE9">Reserva del 20 % y tasas: 55–65 % en sesiones, 30–40 % en CAWI, 70–80 % en CAPI (p. 8)</td>
+<td style="background: #F4EFE9">Con solo 8 a 10 días de CAWI, el 30 % es optimista.</td>
+<td style="background: #F2D5C7"><strong>Reforzar</strong></td>
+<td style="background: #F4EFE9">Planificar CAWI con una tasa del 25 % (unas 480 invitaciones) y una reserva del 30 % en Austral. Recordatorios a los días 2, 4 y 7.</td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td>Duración de 60 a 75 minutos por entrevista (p. 9)</td>
+<td>75 minutos reduce la cantidad de sesiones por día.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Fijar un máximo de 60 minutos, centrado en los módulos críticos de BT 4.1: caracterización, actividad, empleo, pluriempleo y trabajo no cultural.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">20</td>
+<td style="background: #F4EFE9">30 pruebas moderadas y 6 pruebas funcionales (p. 10)</td>
+<td style="background: #F4EFE9">30 pruebas en 6 días equivalen a 5 por día; requiere 2 moderadores.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td style="background: #F4EFE9">Usabilidad del 17 al 24/11 con 2 moderadores; pruebas funcionales del 10 al 12/11, apenas haya accesos.</td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td>210 aplicaciones: 120 CAWI y 90 CAPI, con CAPI en las 4 macrozonas (p. 11)</td>
+<td>CAPI es viable con unos 7 encuestadores. CAWI es el mayor riesgo de cobertura.</td>
+<td style="background: #F2D5C7"><strong>Reforzar</strong></td>
+<td>Abrir CAWI el primer día de campo, con mesa de ayuda. Punto de control con piso de 100 CAWI (sección 4).</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">22</td>
+<td style="background: #F4EFE9">Base maestra con validaciones y análisis cuantitativo y cualitativo (p. 13)</td>
+<td style="background: #F4EFE9">El análisis posterior al campo dura solo 3 a 4 días.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td style="background: #F4EFE9">Automatizar las validaciones desde el día 1 y dejar los tabulados predefinidos en el P1. Desagregar solo por modalidad y macrozona; los dominios se describen sin cruzar.</td>
+</tr>
+<tr class="even">
+<td>23</td>
+<td>Contenido del Producto 1 (p. 15)</td>
+<td>Exigente para 5 días hábiles: la mayoría de los anexos editables aún no existe.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td>Entregar la pauta cognitiva y los consentimientos el 4/11 y el resto el 6/11. El guion de usabilidad y la pauta del grupo focal pueden ir como versiones preliminares (BA 21 habla de «instrumentos preliminares»). Ver sección 7.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">25</td>
+<td style="background: #F4EFE9">Duración de 12 semanas entre el 8/9 y el 15/12 (p. 17)</td>
+<td style="background: #F4EFE9">Ya no es posible con inicio el 26/10.</td>
+<td style="background: #F6E7C8"><strong>Ajustar</strong></td>
+<td style="background: #F4EFE9">Reemplazar en el P1 por el calendario real: 7 semanas al 15/12 u 8 semanas al 22/12 con la ampliación.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section id="plazo-lo-ofertado-frente-a-lo-real" class="level1">
+<h1>3. Plazo: lo ofertado frente a lo real</h1>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Aspecto</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Oferta (Anexo 2)</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Situación real</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Con +1 semana (recomendado)</strong></span></td>
+</tr>
+<tr class="even">
+<td>Inicio</td>
+<td>Semana 1 con la instrucción de inicio</td>
+<td>Lunes 26/10/2026</td>
+<td>Lunes 26/10/2026</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Término de ejecución</td>
+<td style="background: #F4EFE9">Semana 12, a más tardar el 15/12</td>
+<td style="background: #F4EFE9">Martes 15/12/2026</td>
+<td style="background: #F4EFE9">Martes 22/12/2026</td>
+</tr>
+<tr class="even">
+<td>Días hábiles</td>
+<td>60 (12 semanas)</td>
+<td>36 (7,2 semanas)</td>
+<td>41 (8,2 semanas)</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Entrega P1 (Hito 1, 30 %)</td>
+<td style="background: #F4EFE9">Semana 2</td>
+<td style="background: #F4EFE9">Viernes 6/11</td>
+<td style="background: #F4EFE9">Viernes 6/11</td>
+</tr>
+<tr class="even">
+<td>Campo F3</td>
+<td>Semanas 6 a 8</td>
+<td>1 al 11/12 (8 días)</td>
+<td>2 al 16/12 (10 días)</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Entrega P2 (Hito 2, 40 %)</td>
+<td style="background: #F4EFE9">Semana 9</td>
+<td style="background: #F4EFE9">14/12</td>
+<td style="background: #F4EFE9">21/12</td>
+</tr>
+<tr class="even">
+<td>Entrega P3 y P4 (Hito 3, 30 %)</td>
+<td>Semana 12</td>
+<td>9/12 y 11/12</td>
+<td>14/12 y 17/12</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Requisito administrativo</td>
+<td style="background: #F4EFE9">—</td>
+<td style="background: #F4EFE9">Ninguno (queda bajo las 10 a 12 semanas de BT 6.7)</td>
+<td style="background: #F4EFE9">Modificación escrita de contrato antes del 15/12 (BA 25)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>El 8/12 es feriado y está descontado. En ambos casos conviene acordar que la aprobación formal de los productos finales pueda emitirse después del término de la ejecución, dentro de la vigencia del contrato (BA 20).</p>
+</section>
+<section id="es-realizable-con-270-casos-o-hay-que-bajar" class="level1">
+<h1>4. ¿Es realizable con 270 casos o hay que bajar?</h1>
+<p>Se revisó la capacidad de cada fase en los dos calendarios. La regla de las Bases es un mínimo de 250 casos (BT 5 y 6.9).</p>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Fase</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Casos</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Días disponibles (15/12 · 22/12)</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Capacidad necesaria</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Riesgo al 15/12</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Riesgo al 22/12</strong></span></td>
+</tr>
+<tr class="even">
+<td>F1 Entrevistas cognitivas</td>
+<td>24</td>
+<td>9 · 9</td>
+<td>2 moderadores, ~3 entrevistas por día cada uno</td>
+<td style="background: #DCE8DF">Bajo</td>
+<td style="background: #DCE8DF">Bajo</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">F2 Usabilidad (agentes)</td>
+<td style="background: #F4EFE9">30</td>
+<td style="background: #F4EFE9">6 · 6</td>
+<td style="background: #F4EFE9">2 moderadores, ~2,5 pruebas por día cada uno</td>
+<td style="background: #F6E7C8">Medio</td>
+<td style="background: #F6E7C8">Medio</td>
+</tr>
+<tr class="even">
+<td>F2 Pruebas funcionales</td>
+<td>6</td>
+<td>3 · 3</td>
+<td>1 especialista UX; depende de tener accesos</td>
+<td style="background: #DCE8DF">Bajo</td>
+<td style="background: #DCE8DF">Bajo</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">F3 CAPI (4 macrozonas)</td>
+<td style="background: #F4EFE9">90</td>
+<td style="background: #F4EFE9">8 · 10</td>
+<td style="background: #F4EFE9">7 encuestadores al 15/12; 6 al 22/12; 4 supervisores</td>
+<td style="background: #F6E7C8">Medio</td>
+<td style="background: #DCE8DF">Bajo</td>
+</tr>
+<tr class="even">
+<td>F3 CAWI</td>
+<td>120</td>
+<td>8 · 10</td>
+<td>~480 invitaciones (tasa del 25 %), recordatorios y mesa de ayuda</td>
+<td style="background: #F2D5C7">Alto</td>
+<td style="background: #F6E7C8">Medio</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Análisis e informe P2</td>
+<td style="background: #F4EFE9">—</td>
+<td style="background: #F4EFE9">3 · 4 días tras el campo</td>
+<td style="background: #F4EFE9">Depuración diaria y tabulados predefinidos</td>
+<td style="background: #F2D5C7">Alto</td>
+<td style="background: #F6E7C8">Medio</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Conclusión: 270 casos son realizables. Al 15/12 el riesgo es alto y se concentra en CAWI y en el análisis final. Con una semana más baja a medio.</strong></p>
+<section id="si-hubiera-que-bajar-de-dónde-sacar-casos" class="level2">
+<h2 class="anchored" data-anchor-id="si-hubiera-que-bajar-de-dónde-sacar-casos">4.1 Si hubiera que bajar, ¿de dónde sacar casos?</h2>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Opción</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Total</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Evaluación</strong></span></td>
+</tr>
+<tr class="even">
+<td>A. Mantener 270 (24 + 30 + 6 + 120 CAWI + 90 CAPI)</td>
+<td>270</td>
+<td>Recomendada. Es lo ofertado y evaluado.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">B. Piso de contingencia: CAWI de 120 a 100</td>
+<td style="background: #F4EFE9">250</td>
+<td style="background: #F4EFE9">Recomendada como regla preaprobada. Con 100 casos CAWI todavía se puede describir completitud, abandono y tiempos; además es la fase que depende de la respuesta voluntaria.</td>
+</tr>
+<tr class="even">
+<td>C. Bajar usabilidad de 30 a 25 y CAWI de 120 a 105</td>
+<td>250</td>
+<td>No recomendada: la usabilidad ya está en el mínimo útil para 4 tipos de agente y 3 dispositivos.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">D. Bajar CAPI</td>
+<td style="background: #F4EFE9">250</td>
+<td style="background: #F4EFE9">No recomendada: CAPI es la única fuente de evidencia sobre captura asistida en terreno y debe estar en las 4 macrozonas.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Regla de contingencia propuesta para el P1: en el punto de control del campo (miércoles 9/12 si el término es el 15/12, o viernes 11/12 si es el 22/12), si los casos CAWI completos están bajo el 60 % de la meta, la jefatura del proyecto solicita a la contraparte cerrar CAWI en 100 casos. El total queda en 250 y se mantienen las 4 macrozonas. Como toca la cobertura ofertada, la regla debe quedar aprobada por la contraparte junto con el P1.</p>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Macrozona</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Norte</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Centro</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Sur</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Austral</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Total</strong></span></td>
+</tr>
+<tr class="even">
+<td>F1 Cognitivas</td>
+<td>6</td>
+<td>8</td>
+<td>6</td>
+<td>4</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">F2 Usabilidad</td>
+<td style="background: #F4EFE9">7</td>
+<td style="background: #F4EFE9">10</td>
+<td style="background: #F4EFE9">8</td>
+<td style="background: #F4EFE9">5</td>
+<td style="background: #F4EFE9">30</td>
+</tr>
+<tr class="even">
+<td>F2 Funcionales</td>
+<td>—</td>
+<td>6</td>
+<td>—</td>
+<td>—</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">F3 CAWI (piso de contingencia)</td>
+<td style="background: #F4EFE9">24 (20)</td>
+<td style="background: #F4EFE9">42 (35)</td>
+<td style="background: #F4EFE9">36 (30)</td>
+<td style="background: #F4EFE9">18 (15)</td>
+<td style="background: #F4EFE9">120 (100)</td>
+</tr>
+<tr class="even">
+<td>F3 CAPI</td>
+<td>21</td>
+<td>33</td>
+<td>25</td>
+<td>11</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Total</td>
+<td style="background: #F4EFE9">58 (54)</td>
+<td style="background: #F4EFE9">99 (92)</td>
+<td style="background: #F4EFE9">75 (69)</td>
+<td style="background: #F4EFE9">38 (35)</td>
+<td style="background: #F4EFE9">270 (250)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>La matriz es la misma de la Tabla 2 de la oferta; entre paréntesis, los valores con el piso de contingencia. Los primeros 20 casos de campo (5 por macrozona) funcionan como piloto. Si después del piloto cambia la versión del cuestionario, esos casos se reponen.</p>
+</section>
+</section>
+<section id="propuesta-ampliar-el-plazo-una-semana" class="level1">
+<h1>5. Propuesta: ampliar el plazo una semana</h1>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Término</strong></span><span style="color:#FFFFFF"> <strong>15/12 (sin</strong> </span><span style="color:#FFFFFF"><strong>ampliación</strong></span><span style="color:#FFFFFF"><strong>)</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Término 22/12 (con ampliación)</strong></span></td>
+</tr>
+<tr class="even">
+<td>Ajustes de plataforma de MINCAP tras la validación</td>
+<td>3 días (25–27/11)</td>
+<td>5 días (25/11–1/12)</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Piloto y decisión de continuar</td>
+<td style="background: #F4EFE9">1–2/12</td>
+<td style="background: #F4EFE9">2–3/12</td>
+</tr>
+<tr class="even">
+<td>Días de campo</td>
+<td>8 (1–11/12)</td>
+<td>10 (2–16/12)</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Análisis tras el campo</td>
+<td style="background: #F4EFE9">3 días</td>
+<td style="background: #F4EFE9">4 días, más una revisión de la contraparte antes del cierre</td>
+</tr>
+<tr class="even">
+<td>Entregas P3 · P4 · P2</td>
+<td>9/12 · 11/12 · 14/12</td>
+<td>14/12 · 17/12 · 21/12</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Riesgo global</td>
+<td style="background: #F4EFE9">Alto, sin holgura</td>
+<td style="background: #F4EFE9">Medio, con 2 a 3 días de holgura</td>
+</tr>
+<tr class="even">
+<td>Trámite</td>
+<td>Ninguno</td>
+<td>Modificación de contrato por escrito antes del 15/12 (BA 25); sigue dentro del año presupuestario 2026</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Cómo pedirla: incluir en la carta de entrega del P1 (6/11) la solicitud de ampliar el término de ejecución al 22/12/2026, sin cambiar el precio, los productos ni la cobertura. El fundamento es que el inicio formal fue el 26/10 y que la ampliación permite cumplir «de igual o mejor forma» la necesidad pública (BA 25). Si no se aprueba, el cronograma al 15/12 sigue siendo el plan base.</p>
+</section>
+<section id="cronograma-recomendado-término-22122026" class="level1">
+<h1>6. Cronograma recomendado (término 22/12/2026)</h1>
+<p><em>Azul: trabajo del OPC · Beige: depende de MINCAP · Celeste: revisión de la contraparte · Naranjo ◆: entrega formal · Verde azulado ★: hito o decisión. La columna Fechas indica el día exacto y los recuadros de color, la semana. </em><em>Sin </em><em>ampliación</em><em>, </em><em>aplican</em><em> las fechas de la sección 5.</em></p>
+<div class="table-wrap">
+<table class="doc-table gantt caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 7%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>N°</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Actividad</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Fechas</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Resp.</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S1</strong></span><span style="color:#FFFFFF"><strong><br>
+26/10</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S2</strong></span><span style="color:#FFFFFF"><strong><br>
+02/11</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S3</strong></span><span style="color:#FFFFFF"><strong><br>
+09/11</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S4</strong></span><span style="color:#FFFFFF"><strong><br>
+16/11</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S5</strong></span><span style="color:#FFFFFF"><strong><br>
+23/11</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S6</strong></span><span style="color:#FFFFFF"><strong><br>
+30/11</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S7</strong></span><span style="color:#FFFFFF"><strong><br>
+07/12</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S8</strong></span><span style="color:#FFFFFF"><strong><br>
+14/12</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>S9</strong></span><span style="color:#FFFFFF"><strong><br>
+21/12</strong></span></td>
+</tr>
+<tr class="even">
+<td colspan="13" style="background: #E3EFF0"><span style="color:#3F7F86"><strong>HITO 1 · Plan de trabajo ajustado (Producto 1)</strong></span></td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td><strong>Reunión de inicio con contraparte y acta (calendario, plazos de revisión de 3 días hábiles)</strong></td>
+<td>26/10–28/10</td>
+<td>JP / CT</td>
+<td style="text-align: center; background: #3F7F86; color: #fff;"><span style="color:#FFFFFF">★</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Cuestionarios, documentos y accesos al ambiente de prueba y perfiles (MINCAP)</td>
+<td>26/10–03/11</td>
+<td>CT</td>
+<td style="background: #DCCFC1"></td>
+<td style="background: #DCCFC1"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Revisión experta del cuestionario y mapa de validación</td>
+<td>27/10–03/11</td>
+<td>CM</td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Matriz de cobertura calendarizada, perfiles, reemplazo y embudo de reclutamiento</td>
+<td>29/10–03/11</td>
+<td>CM / CO</td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Pauta cognitiva, consentimientos, ficha de elegibilidad y ficha de incidencias</td>
+<td>02/11–04/11</td>
+<td>CM / DQ</td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><strong>Envío anticipado de pauta cognitiva y consentimientos para aprobación</strong></td>
+<td>04/11</td>
+<td>JP</td>
+<td></td>
+<td style="text-align: center; background: #E29668;"><span style="color:#FFFFFF">◆</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Planes de supervisión, análisis y resguardo; matrices de control y tablero</td>
+<td>03/11–05/11</td>
+<td>DQ / CO</td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Guion de usabilidad, pruebas funcionales, protocolos CAWI/CAPI y piloto</td>
+<td>04/11–05/11</td>
+<td>UX / CO</td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><strong>Entrega Producto 1</strong></td>
+<td>06/11</td>
+<td>JP</td>
+<td></td>
+<td style="text-align: center; background: #E29668;"><span style="color:#FFFFFF">◆</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Revisión contraparte P1 (3 días hábiles)</td>
+<td>09/11–11/11</td>
+<td>CT</td>
+<td></td>
+<td></td>
+<td style="background: #A1CACD"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><strong>Versión final P1: aprobación Hito 1 (30 %)</strong></td>
+<td>12/11–13/11</td>
+<td>JP / CT</td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #3F7F86; color: #fff;"><span style="color:#FFFFFF">★</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td colspan="13" style="background: #E3EFF0"><span style="color:#3F7F86"><strong>FASE 1 Y FASE 2 · Cognitivas (24) y usabilidad (30 + 6), en paralelo controlado</strong></span></td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Reclutamiento y agenda F1–F2 (54 agentes + 6 operativos, reserva 20 %)</td>
+<td>02/11–20/11</td>
+<td>CO</td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>Recorrido experto de la plataforma y escenarios de tarea</td>
+<td>03/11–09/11</td>
+<td>UX</td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>Ronda 1 cognitiva: 12 entrevistas (2 moderadores)</td>
+<td>09/11–13/11</td>
+<td>CM</td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td>Pruebas funcionales encuestador y supervisor (6)</td>
+<td>10/11–12/11</td>
+<td>UX</td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td>Análisis intermedio y versión v1.1</td>
+<td>16/11</td>
+<td>CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>17</td>
+<td>Ronda 2 cognitiva: 12 entrevistas focalizadas</td>
+<td>17/11–20/11</td>
+<td>CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td>Pruebas de usabilidad moderadas (30; 2 moderadores, 5 por día)</td>
+<td>17/11–24/11</td>
+<td>UX</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>19</td>
+<td>Análisis F1–F2 y matriz priorizada de recomendaciones</td>
+<td>23/11–24/11</td>
+<td>CM / UX</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td colspan="13" style="background: #E3EFF0"><span style="color:#3F7F86"><strong>VALIDACIÓN Y PREPARACIÓN DE CAMPO</strong></span></td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td><strong>Mesa de validación F1–F2 con contraparte (BT 4.2): solo críticos y altos se corrigen antes del campo</strong></td>
+<td>25/11</td>
+<td>JP / CT</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #3F7F86; color: #fff;"><span style="color:#FFFFFF">★</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Implementación de ajustes críticos en cuestionario y plataforma (MINCAP)</td>
+<td>25/11–01/12</td>
+<td>CT</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #DCCFC1"></td>
+<td style="background: #DCCFC1"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Manual de campo v0 y materiales de capacitación</td>
+<td>18/11–25/11</td>
+<td>CO / CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Capacitación del equipo territorial (remota) y simulación observada</td>
+<td>26/11–01/12</td>
+<td>CO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Prueba técnica de la versión de campo y regresión</td>
+<td>30/11–02/12</td>
+<td>DQ / UX</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td colspan="13" style="background: #E3EFF0"><span style="color:#3F7F86"><strong>FASE 3 · Captura en terreno (210 casos) con piloto integrado</strong></span></td>
+</tr>
+<tr class="even">
+<td>25</td>
+<td>Reclutamiento F3: ~400 invitaciones CAWI y ~130 contactos CAPI</td>
+<td>16/11–09/12</td>
+<td>CO</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>26</td>
+<td>Piloto integrado: primeros 20 casos (5 por macrozona) con revisión intensiva</td>
+<td>02/12–03/12</td>
+<td>CO / ET</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>27</td>
+<td><strong>Decisión de continuar (go/no-go) y congelamiento de versión</strong></td>
+<td>03/12</td>
+<td>JP / CT</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #3F7F86; color: #fff;"><span style="color:#FFFFFF">★</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>28</td>
+<td>Levantamiento CAWI (120) con recordatorios y mesa de ayuda</td>
+<td>02/12–16/12</td>
+<td>CO</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>29</td>
+<td>Levantamiento CAPI (90) en 4 macrozonas</td>
+<td>02/12–16/12</td>
+<td>CO / ET</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>30</td>
+<td>Monitoreo diario, revisión 100 %, observación y recontacto ≥10 % CAPI</td>
+<td>02/12–16/12</td>
+<td>CO / DQ</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>31</td>
+<td>Grupo focal con encuestadores y supervisores (remoto)</td>
+<td>16/12</td>
+<td>CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td colspan="13" style="background: #E3EFF0"><span style="color:#3F7F86"><strong>PRODUCTOS 2, 3 y 4</strong></span></td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Redacción de capítulos F1–F2 del informe (en paralelo al campo)</td>
+<td>26/11–09/12</td>
+<td>CM / UX</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Guía de usuario del RAC (base: usabilidad y CAWI)</td>
+<td>23/11–14/12</td>
+<td>UX / CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td><strong>Entrega Producto 3: Guía de usuario</strong></td>
+<td>14/12</td>
+<td>JP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #E29668;"><span style="color:#FFFFFF">◆</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Manual de campo v1 a final (incorpora piloto y grupo focal)</td>
+<td>03/12–17/12</td>
+<td>CO / CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td><strong>Entrega Producto 4: Manual de campo</strong></td>
+<td>17/12</td>
+<td>JP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #E29668;"><span style="color:#FFFFFF">◆</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>37</td>
+<td>Depuración continua, análisis F3 y matriz consolidada</td>
+<td>04/12–21/12</td>
+<td>DQ / CM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+</tr>
+<tr class="even">
+<td>38</td>
+<td><strong>Entrega Producto 2: informe técnico integrado</strong></td>
+<td>21/12</td>
+<td>JP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #E29668;"><span style="color:#FFFFFF">◆</span></td>
+</tr>
+<tr class="odd">
+<td>39</td>
+<td>Revisión contraparte P3–P4 y ajustes</td>
+<td>15/12–22/12</td>
+<td>CT / JP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #A1CACD"></td>
+<td style="background: #A1CACD"></td>
+</tr>
+<tr class="even">
+<td>40</td>
+<td><strong>Transferencia de respaldos y acta de término de ejecución</strong></td>
+<td>22/12</td>
+<td>JP / CT</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center; background: #3F7F86; color: #fff;"><span style="color:#FFFFFF">★</span></td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Revisión y aprobación de P2 (y cierre de observaciones) dentro de la vigencia del contrato, a confirmar</td>
+<td>22/12</td>
+<td>CT</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="background: #A1CACD"></td>
+</tr>
+<tr class="even">
+<td colspan="13" style="background: #E3EFF0"><span style="color:#3F7F86"><strong>TRANSVERSAL</strong></span></td>
+</tr>
+<tr class="odd">
+<td>42</td>
+<td>Reunión semanal con contraparte; durante campo, reporte diario de avance</td>
+<td>26/10–22/12</td>
+<td>JP</td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+<td style="background: #769CB4; color: #fff"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Ruta crítica: cuestionarios y accesos (3/11) → pauta cognitiva aprobada (6/11) → entrevistas y usabilidad (9–24/11) → validación con la contraparte (25/11, exigida por BT 4.2) → ajustes de MINCAP y prueba técnica (hasta el 2/12) → piloto y decisión de continuar (3/12) → campo (hasta el 16/12) → P2 (21/12).</p>
+</section>
+<section id="riesgos-principales-y-decisiones-para-la-contraparte" class="level1">
+<h1>7. Riesgos principales y decisiones para la contraparte</h1>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Riesgo</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Medida</strong></span></td>
+</tr>
+<tr class="even">
+<td>Cuestionarios o accesos después del 3/11</td>
+<td>Pauta y guion en versión preliminar; registrar el atraso como dependencia; si supera una semana, pedir más plazo</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Ajustes de plataforma sin terminar al iniciar el campo</td>
+<td style="background: #F4EFE9">Antes del campo solo se corrigen incidencias críticas y altas; el resto se resuelve con instrucciones al equipo</td>
+</tr>
+<tr class="even">
+<td>Respuesta CAWI baja en una ventana corta</td>
+<td>Tasa planificada del 25 %, recordatorios, mesa de ayuda y piso de contingencia de 100 casos</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Pocos casos en Austral (difícil reemplazar inasistencias)</td>
+<td style="background: #F4EFE9">Reserva del 30 %, reclutamiento desde el 16/11 y apoyo de referentes regionales</td>
+</tr>
+<tr class="even">
+<td>Revisiones de productos al cierre</td>
+<td>Entregas escalonadas y aprobación formal dentro de la vigencia del contrato</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Decisiones que deben quedar en acta con la contraparte:</strong></p>
+<ul>
+<li>Ampliación del término de ejecución al 22/12/2026.</li>
+<li>Regla de contingencia: piso de 250 casos mediante el cierre de CAWI en 100.</li>
+<li>Revisión de productos en 3 días hábiles y aprobación anticipada de la pauta cognitiva.</li>
+<li>Fechas límite de entrega de cuestionarios, accesos y listados del RAC.</li>
+<li>Posibilidad de formalizar la aprobación de P2 a P4 después del término de la ejecución.</li>
+</ul>
+</section>
+<section id="literatura-metodológica-de-respaldo." class="level1">
+<h1>8. Literatura metodológica de respaldo.</h1>
+<section id="pretesteo-y-entrevistas-cognitivas" class="level2">
+<h2 class="anchored" data-anchor-id="pretesteo-y-entrevistas-cognitivas">Pretesteo y entrevistas cognitivas</h2>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Referencia</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Decisión que respalda</strong></span></td>
+</tr>
+<tr class="even">
+<td>Beatty, P. C., Collins, D., Kaye, L., Padilla, J. L., Willis, G. B., &amp; Wilmot, A. (Eds.). (2020). Advances in questionnaire design, development, evaluation and testing. Wiley.</td>
+<td>Secuencia de pretesteo: revisión experta, entrevistas cognitivas, prueba técnica y piloto.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Beatty, P. C., &amp; Willis, G. B. (2007). Research synthesis: The practice of cognitive interviewing. Public Opinion Quarterly, 71(2), 287–311.</td>
+<td style="background: #F4EFE9">Rondas iterativas de entrevistas cognitivas con ajustes entre rondas.</td>
+</tr>
+<tr class="even">
+<td>Blair, J., &amp; Conrad, F. G. (2011). Sample size for cognitive interview pretesting. Public Opinion Quarterly, 75(4), 636–658.</td>
+<td>Suficiencia de 24 entrevistas en dos rondas y lógica de detección de problemas.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Collins, D. (Ed.). (2015). Cognitive interviewing practice. SAGE.</td>
+<td style="background: #F4EFE9">Pauta estandarizada, entrenamiento de moderadores y sesiones de 60 minutos.</td>
+</tr>
+<tr class="even">
+<td>Miller, K., Chepp, V., Willson, S., &amp; Padilla, J. L. (Eds.). (2014). Cognitive interviewing methodology. Wiley.</td>
+<td>Análisis de entrevistas cognitivas por pregunta y por perfil.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Presser, S., Couper, M. P., Lessler, J. T., Martin, E., Martin, J., Rothgeb, J. M., &amp; Singer, E. (2004). Methods for testing and evaluating survey questions. Public Opinion Quarterly, 68(1), 109–130.</td>
+<td style="background: #F4EFE9">Combinación de métodos de prueba antes del campo.</td>
+</tr>
+<tr class="even">
+<td>Tourangeau, R., Rips, L. J., &amp; Rasinski, K. (2000). The psychology of survey response. Cambridge University Press.</td>
+<td>Foco de la pauta en comprensión, recuperación, juicio y respuesta.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Willis, G. B. (2005). Cognitive interviewing: A tool for improving questionnaire design. SAGE.</td>
+<td style="background: #F4EFE9">Técnicas de verbalización y sondeo de la Fase 1.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="usabilidad-y-tamaño-de-muestra-en-pruebas-con-usuarios" class="level2">
+<h2 class="anchored" data-anchor-id="usabilidad-y-tamaño-de-muestra-en-pruebas-con-usuarios">Usabilidad y tamaño de muestra en pruebas con usuarios</h2>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Referencia</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Decisión que respalda</strong></span></td>
+</tr>
+<tr class="even">
+<td>Faulkner, L. (2003). Beyond the five-user assumption: Benefits of increased sample sizes in usability testing. Behavior Research Methods, Instruments, &amp; Computers, 35(3), 379–383.</td>
+<td>Mantener 30 pruebas de usabilidad en vez de reducirlas.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Nielsen, J., &amp; Landauer, T. K. (1993). A mathematical model of the finding of usability problems. Proceedings of INTERCHI ’93 (pp. 206–213). ACM.</td>
+<td style="background: #F4EFE9">Modelo de detección de problemas usado para justificar la suficiencia.</td>
+</tr>
+<tr class="even">
+<td>Sauro, J., &amp; Lewis, J. R. (2016). Quantifying the user experience: Practical statistics for user research (2.ª ed.). Morgan Kaufmann.</td>
+<td>Cálculo de probabilidad de detección y métricas por tarea.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="muestreo-cualitativo-y-saturación" class="level2">
+<h2 class="anchored" data-anchor-id="muestreo-cualitativo-y-saturación">Muestreo cualitativo y saturación</h2>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Referencia</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Decisión que respalda</strong></span></td>
+</tr>
+<tr class="even">
+<td>Guest, G., Bunce, A., &amp; Johnson, L. (2006). How many interviews are enough? An experiment with data saturation and variability. Field Methods, 18(1), 59–82.</td>
+<td>No aumentar las fases cualitativas: la saturación se alcanza con pocos casos por perfil.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Hennink, M., &amp; Kaiser, B. N. (2022). Sample sizes for saturation in qualitative research: A systematic review of empirical tests. Social Science &amp; Medicine, 292, 114523.</td>
+<td style="background: #F4EFE9">Respaldo actualizado a los tamaños de F1 y F2.</td>
+</tr>
+<tr class="even">
+<td>Patton, M. Q. (2015). Qualitative research &amp; evaluation methods (4.ª ed.). SAGE.</td>
+<td>Muestreo dirigido de máxima variación.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="modos-de-recolección-respuesta-y-entrevistas-remotas" class="level2">
+<h2 class="anchored" data-anchor-id="modos-de-recolección-respuesta-y-entrevistas-remotas">Modos de recolección, respuesta y entrevistas remotas</h2>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Referencia</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Decisión que respalda</strong></span></td>
+</tr>
+<tr class="even">
+<td>Daikeler, J., Bošnjak, M., &amp; Lozar Manfreda, K. (2020). Web versus other survey modes: An updated and extended meta-analysis comparing response rates. Journal of Survey Statistics and Methodology, 8(3), 513–539.</td>
+<td>Planificar CAWI con una tasa de respuesta conservadora (25 %).</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">de Leeuw, E. D. (2005). To mix or not to mix data collection modes in surveys. Journal of Official Statistics, 21(2), 233–255.</td>
+<td style="background: #F4EFE9">Comparación CAWI/CAPI y uso de CATI/PAPI solo como contingencia.</td>
+</tr>
+<tr class="even">
+<td>Dillman, D. A., Smyth, J. D., &amp; Christian, L. M. (2014). Internet, phone, mail, and mixed-mode surveys: The tailored design method (4.ª ed.). Wiley.</td>
+<td>Invitaciones, recordatorios escalonados y mesa de ayuda en CAWI.</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Johnson, D. R., Scheitle, C. P., &amp; Ecklund, E. H. (2021). Beyond the in-person interview? How interview quality varies across in-person, telephone, and Skype interviews. Social Science Computer Review, 39(6), 1142–1158.</td>
+<td style="background: #F4EFE9">Priorizar sesiones remotas en F1 y F2, con reserva presencial.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="gestión-del-campo-y-calidad-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="gestión-del-campo-y-calidad-de-datos">Gestión del campo y calidad de datos</h2>
+<div class="table-wrap">
+<table class="doc-table caption-top table" data-quarto-postprocess="true">
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Referencia</strong></span></td>
+<td data-quarto-table-cell-role="th" style="background: #569CA3; color: #fff"><span style="color:#FFFFFF"><strong>Decisión que respalda</strong></span></td>
+</tr>
+<tr class="even">
+<td>Groves, R. M., &amp; Heeringa, S. G. (2006). Responsive design for household surveys: Tools for actively controlling survey errors and costs. Journal of the Royal Statistical Society: Series A, 169(3), 439–457.</td>
+<td>Punto de control durante el campo y regla de contingencia (piso de 250).</td>
+</tr>
+<tr class="odd">
+<td style="background: #F4EFE9">Groves, R. M., Fowler, F. J., Couper, M. P., Lepkowski, J. M., Singer, E., &amp; Tourangeau, R. (2009). Survey methodology (2.ª ed.). Wiley.</td>
+<td style="background: #F4EFE9">Marco general de error total de encuesta y control de calidad.</td>
+</tr>
+<tr class="even">
+<td>Kreuter, F. (Ed.). (2013). Improving surveys with paradata: Analytic uses of process information. Wiley.</td>
+<td>Uso de paradata (tiempos, abandono) en el monitoreo diario y el análisis.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

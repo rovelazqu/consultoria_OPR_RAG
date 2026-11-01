@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Informe Producto 1 · RAC"
+  page-navigation: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    toc-location: left
+    toc-title: "Índice"
+    toc-expand: true
+    number-sections: false
+    smooth-scroll: true
+    page-layout: full
+    lang: es
