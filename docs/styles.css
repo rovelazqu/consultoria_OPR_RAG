@@ -32,3 +32,8 @@ table.gantt td:nth-child(2), table.gantt th:nth-child(2) { min-width: 300px; }
 table.gantt td:nth-child(3) { white-space: nowrap; }
 @media print { .table-wrap { overflow: visible; } }
 .cover-author { margin-top:.3rem; color: var(--grey); font-size:.95rem; }
+
+/* Índice más pegado al borde izquierdo en pantallas grandes */
+@media (min-width: 992px) {
+  #quarto-sidebar { grid-column: screen-start / body-start-outset !important; margin-left: 0 !important; padding-left: 1rem !important; }
+}
